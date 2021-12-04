@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
-//  MyInstagram
+//  HomeViewController.swift
+//  my_instagram
 //
-//  Created by MAC on 22/11/2021.
+//  Created by MAC on 04/12/2021.
 //
 
 import UIKit
@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
         
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -29,5 +30,5 @@ class HomeViewController: UIViewController {
             present(loginVc, animated: false)
         }
     }
-}
 
+}
