@@ -48,7 +48,7 @@ class RegistrationViewController: UIViewController {
     private let userNameLabel : UILabel = {
         let text = UILabel()
         text.text = " your name "
-        text.textColor = .systemRed
+        text.textColor = .systemOrange
         text.sizeToFit()
         return text
     }()
@@ -71,7 +71,7 @@ class RegistrationViewController: UIViewController {
     private let userEmailLabel : UILabel = {
         let text = UILabel()
         text.text = " your Email "
-        text.textColor = .systemRed
+        text.textColor = .systemOrange
         text.sizeToFit()
         return text
     }()
@@ -96,7 +96,7 @@ class RegistrationViewController: UIViewController {
     private let PasswordLabel : UILabel = {
         let text = UILabel()
         text.text = " Your Password "
-        text.textColor = .systemRed
+        text.textColor = .systemOrange
         text.sizeToFit()
         return text
     }()
@@ -121,7 +121,7 @@ class RegistrationViewController: UIViewController {
     private let confirmPasswordLabel : UILabel = {
         let text = UILabel()
         text.text = "Confirm Password"
-        text.textColor = .systemRed
+        text.textColor = .systemOrange
         text.sizeToFit()
         return text
     }()
