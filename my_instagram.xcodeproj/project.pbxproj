@@ -165,6 +165,7 @@
 		0424F630275BFDD3005050B2 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				0424F622275BFC5B005050B2 /* SettingViewController.swift */,
 				0424F618275BFC46005050B2 /* EditViewController.swift */,
 				0424F617275BFC45005050B2 /* ListViewController.swift */,
 				0424F61F275BFC5A005050B2 /* PostEditorViewController.swift */,
@@ -172,7 +173,6 @@
 				0424F620275BFC5B005050B2 /* PublishPostViewController.swift */,
 				0424F623275BFC5B005050B2 /* SearchResultViewController.swift */,
 				0424F621275BFC5B005050B2 /* SearchViewController.swift */,
-				0424F622275BFC5B005050B2 /* SettingViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";

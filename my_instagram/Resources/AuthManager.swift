@@ -40,4 +40,14 @@ public class AuthManager{
             return
         }
     }
+    
+    public func logout(completion : (Bool,String?) -> Void){
+        do {
+            try Auth.auth().signOut()
+            completion(true, nil)
+        } catch let signOutError as NSError {
+            completion(false,"Error signing out: \(signOutError)")
+            print("Error signing out: %@", signOutError)
+        }
+    }
 }
