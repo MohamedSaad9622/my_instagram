@@ -60,7 +60,7 @@ final class SettingViewController: UIViewController {
                     self.present(loginVc, animated: true) {
                         // to show home screen
                         self.navigationController?.popToRootViewController(animated: true)
-                        self.tabBarController?.selectedIndex = 1
+                        self.tabBarController?.selectedIndex = 0
                     }
                 }
                 else{

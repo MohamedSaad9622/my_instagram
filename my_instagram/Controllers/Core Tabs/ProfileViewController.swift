@@ -16,8 +16,7 @@ class ProfileViewController: UIViewController {
     }
     
     func configureNavigationBar() {
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .done, target: self, action: #selector(didTapSettingButton))
-        didTapSettingButton()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .done, target: self, action: #selector(didTapSettingButton))
     }
     
     @objc func didTapSettingButton() {
