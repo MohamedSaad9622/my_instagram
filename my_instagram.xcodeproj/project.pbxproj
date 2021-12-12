@@ -144,9 +144,9 @@
 		0424F62E275BFD30005050B2 /* Core Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				0424F612275BFC32005050B2 /* HomeViewController.swift */,
 				0424F60D275BFC28005050B2 /* CameraViewController.swift */,
 				0424F60F275BFC2D005050B2 /* ExploreViewController.swift */,
-				0424F612275BFC32005050B2 /* HomeViewController.swift */,
 				0424F613275BFC33005050B2 /* NotificationViewController.swift */,
 				0424F611275BFC32005050B2 /* ProfileViewController.swift */,
 			);
